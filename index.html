@@ -67,26 +67,16 @@ const bank=[
 ["Nº 5 — Inervação: nervo acessório; eleva e retrai a escápula.",0],
 ["Nº 5 — Inervação: nervo axilar; abduz o braço.",0],
 ["Nº 5 — Inervação: nervo torácico longo; faz protração escapular.",0]]},
-{n:6,name:"Manguito rotador",img:"6_manguito.jpg",q:"A estrutura de referência é o nº 6. Quais músculos formam o manguito rotador?",opts:[
-["Supraespinal, infraespinal, redondo menor e subescapular.",1],
-["Deltoide, trapézio, romboide maior e latíssimo do dorso.",0],
-["Peitoral maior, peitoral menor, serrátil anterior e deltoide.",0],
-["Bíceps braquial, tríceps braquial, braquial e coracobraquial.",0]]},
-{n:6,name:"Manguito rotador",img:"6_manguito.jpg",q:"A estrutura de referência é o nº 6. Qual é a principal função conjunta do manguito rotador?",opts:[
-["Estabilizar dinamicamente a cabeça do úmero na cavidade glenoidal e auxiliar nos movimentos de rotação; o supraespinal também inicia a abdução.",1],
-["Estender o cotovelo e estabilizar a articulação do punho.",0],
-["Protrair a escápula e mantê-la colada à parede torácica.",0],
-["Elevar a clavícula e produzir flexão do tronco.",0]]},
-{n:7,name:"Plexo braquial",img:"7_plexo.jpg",q:"A estrutura de referência é o nº 7. Quais raízes espinhais formam tipicamente o plexo braquial?",opts:[
-["Ramos anteriores de C5 a T1.",1],
+{n:6,name:"Manguito rotador",img:"6_manguito.jpg",q:"A estrutura de referência é o nº 6. Qual seu nome?",opts:[
+["Manguito Rotador.",1],
+["Nervo Acessório.",0],
+["Músculo trapézio.",0],
+["Músculo deltoide.",0]]},
+{n:7,name:"Plexo braquial",img:"7_plexo.jpg",q:"A estrutura de referência é o nº 7. Qual seu nome?",opts:[
+["Plexo Braquial.",1],
 ["Ramos posteriores de C1 a C4.",0],
-["Ramos anteriores de T6 a T12.",0],
-["Nervos cranianos V, VII, IX e X.",0]]},
-{n:7,name:"Plexo braquial",img:"7_plexo.jpg",q:"A estrutura de referência é o nº 7. Qual alternativa lista apenas ramos terminais clássicos do plexo braquial?",opts:[
-["Musculocutâneo, axilar, radial, mediano e ulnar.",1],
-["Frênico, vago, acessório, hipoglosso e facial.",0],
-["Femoral, obturatório, tibial, fibular comum e glúteo superior.",0],
-["Torácico longo, frênico, facial, mediano e femoral.",0]]}
+["Ramos anteriores de T6 a T12.",0]
+["Nervos cranianos V, VII, IX e X.",0]]}
 ];
 let deck=[],i=0,score=0,locked=false;
 function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
